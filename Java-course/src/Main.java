@@ -5,5 +5,8 @@ public class Main {
         int idade = 25;
         double salarioMensal = 4500.00;
         char genero = 'M';
+        boolean empregadoJava = true;
+
+        System.out.println("idade:" + idade);
         }
     }
