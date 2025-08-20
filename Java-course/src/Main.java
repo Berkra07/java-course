@@ -8,5 +8,6 @@ public class Main {
         boolean empregadoJava = true;
 
         System.out.println("idade:" + idade);
+        System.out.println("salário:" + salarioMensal);
         }
     }
