@@ -9,12 +9,13 @@ public class OperadoresAritimeticos {
 
         double valorPc= placaVideo + processador + placaMae;
         double valorComDescontoPix = valorPc - desconto;
-        double valorTotalDividido= valorComDescontoPix / 2;
+        double valorTotalDividido= valorPc / 2;
         double valorTotalMensal = valorComDescontoPix * valorMensal;
 
-        
-        System.out.println( "Valor total do PC (com desconto) = R$" + valorComDescontoPix);
-        System.out.println( "Valor Dividido em 2= R$" + valorTotalDividido);
+        System.out.println( "valor bruto do PC = R$" + valorPc);
+        System.out.println( "Valor total com desconto = R$" + valorComDescontoPix);
+        System.out.println( "Valor dividido em 2= R$" + valorTotalDividido);
+        System.out.println( "Valor total por mês = R$" + valorTotalMensal);
     }
 }
 
