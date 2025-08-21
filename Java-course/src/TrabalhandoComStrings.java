@@ -9,6 +9,6 @@ public class TrabalhandoComStrings {
 
         System.out.println( "Olá, " + name);
         System.out.println( "Your name have: " + numberOffCharacters + " characters");
-
+        System.out.println( "the names are equals: " + namesEquals);
     }
 }
