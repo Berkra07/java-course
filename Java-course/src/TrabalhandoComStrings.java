@@ -5,6 +5,7 @@ public class TrabalhandoComStrings {
         String nametwo = "Nataly";
 
         int numberOffCharacters = name.length();
+        boolean namesEquals = name.equals(nametwo);
 
         System.out.println( "Olá, " + name);
         System.out.println( "Your name have: " + numberOffCharacters + " characters");
