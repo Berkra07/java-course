@@ -21,12 +21,12 @@ public class EntradaESaidaDeDados {
         System.out.println( "Olá, " + nome + " Prazer em recebe-lo!!");
 
         System.out.println( "Digite sua idade: ");
-        String idade = Scanner.nextInt();
+        int idade = Scanner.nextInt();
         System.out.println("Sua idade: " + idade);
 
         System.out.println("Quanto dinheiro quer guardar hoje: ");
-        Scanner dinheiro = Scanner.nextDouble();
-        System.out.println("Você poupou: R$" + dinheiro + "esse mês.");
+        double dinheiro = Scanner.nextDouble();
+        System.out.println("Você poupou: R$" + dinheiro + " esse mês.");
 
     }
 }
