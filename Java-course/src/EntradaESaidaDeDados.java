@@ -19,5 +19,11 @@ public class EntradaESaidaDeDados {
         System.out.println( "Olá, Digite seu nome: ");
         String nome = Scanner.nextLine();
         System.out.println( "Olá, " + nome + " Prazer em recebe-lo!!");
+
+        System.out.println( "Digite sua idade: ");
+        String idade = Scanner.nextInt();
+        System.out.println("Sua idade: " + idade);
+
+        
     }
 }
