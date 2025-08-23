@@ -11,8 +11,8 @@ public class EntradaESaidaDeDados {
         * System.out,printf(): imprime formatado( Explicar melhor)*/
 
         System.out.println("Impressão e pula linha");
-        System.out.print("Impressão e mesma linha");
         
+
 
         /*Entrada de dados
          *
