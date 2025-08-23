@@ -11,6 +11,9 @@ public class EntradaESaidaDeDados {
         System.out.println("Impressão e pula linha");
         System.out.print("Impressão e mesma linha");
         System.out.printf("impressão formatada");
-        
+
+        /*Entrada de dados
+         *
+         * usamos a classe Scanner para ler dados do teclado*/
     }
 }
