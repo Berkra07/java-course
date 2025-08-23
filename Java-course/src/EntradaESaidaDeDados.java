@@ -9,7 +9,7 @@ public class EntradaESaidaDeDados {
         * System.out.print(): Imprime sem pular linha. (mais utilizado
         * System.out,println(): Imprime e pula para prox. linha
         * System.out,printf(): imprime formatado( Explicar melhor)*/
-        
+
         /*Entrada de dados
          *
          * usamos a classe Scanner para ler dados do teclado*/
@@ -18,5 +18,6 @@ public class EntradaESaidaDeDados {
 
         System.out.println( "Olá, Digite seu nome: ");
         String nome = Scanner.nextLine();
+        System.out.println( "Olá, " + nome + " Prazer em recebe-lo!!");
     }
 }
