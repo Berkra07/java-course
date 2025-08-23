@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class EntradaESaidaDeDados {
     public static void main(String[] args) {
 
@@ -15,5 +17,7 @@ public class EntradaESaidaDeDados {
         /*Entrada de dados
          *
          * usamos a classe Scanner para ler dados do teclado*/
+
+        Scanner Scanner = new Scanner(System.in);
     }
 }
