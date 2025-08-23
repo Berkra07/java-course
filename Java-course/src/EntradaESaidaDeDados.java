@@ -28,5 +28,6 @@ public class EntradaESaidaDeDados {
         double dinheiro = Scanner.nextDouble();
         System.out.println("Você poupou: R$" + dinheiro + " esse mês.");
 
+        System.out.println( nome + ", Você tem " + idade +" e poupou R$" + dinheiro +" esse mês");
     }
 }
