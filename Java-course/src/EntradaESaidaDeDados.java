@@ -19,5 +19,8 @@ public class EntradaESaidaDeDados {
          * usamos a classe Scanner para ler dados do teclado*/
 
         Scanner Scanner = new Scanner(System.in);
+
+        System.out.println( "Olá, Digite seu nome: ");
+        String nome = Scanner.nextLine();
     }
 }
