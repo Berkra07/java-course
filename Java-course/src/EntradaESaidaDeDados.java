@@ -9,11 +9,7 @@ public class EntradaESaidaDeDados {
         * System.out.print(): Imprime sem pular linha. (mais utilizado
         * System.out,println(): Imprime e pula para prox. linha
         * System.out,printf(): imprime formatado( Explicar melhor)*/
-
-        System.out.println("Impressão e pula linha");
         
-
-
         /*Entrada de dados
          *
          * usamos a classe Scanner para ler dados do teclado*/
