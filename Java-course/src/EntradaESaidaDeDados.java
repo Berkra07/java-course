@@ -24,6 +24,9 @@ public class EntradaESaidaDeDados {
         String idade = Scanner.nextInt();
         System.out.println("Sua idade: " + idade);
 
-        
+        System.out.println("Quanto dinheiro quer guardar hoje: ");
+        Scanner dinheiro = Scanner.nextDouble();
+        System.out.println("Você poupou: R$" + dinheiro + "esse mês.");
+
     }
 }
