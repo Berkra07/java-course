@@ -19,7 +19,7 @@ Aqui você vai encontrar exercícios, exemplos de código e projetos desenvolvid
 ---
 
 ## 🚀 Tecnologias
-- **Java** (versão utilizada: `XX`)  
+- **Java** (versão utilizada: `"1.8.0_401`)  
 - **IDE**: IntelliJ IDEA  
 - **Git & GitHub** para versionamento de código  
 
