@@ -21,5 +21,6 @@ public class CastingConversaoTipos {
         int nd2 = (int) numero2;
 
         System.out.println(numero);
+        System.out.println( numero2);
     }
 }
