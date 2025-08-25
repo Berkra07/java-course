@@ -27,6 +27,8 @@ public class CastingConversaoTipos {
 //        Integer -> String
 
         Integer numeroInteger= 999;
-        String convetInteger= numeroInteger.toString()
+        String convetInteger= numeroInteger.toString();
+
+        System.out.println(convetInteger);
     }
 }
