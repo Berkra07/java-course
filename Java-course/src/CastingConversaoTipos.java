@@ -22,5 +22,11 @@ public class CastingConversaoTipos {
 
         System.out.println(nd);
         System.out.println( nd2);
+
+//        integer é mais usado que o int, Pois nao é um tipo primitivo (da para fazer conversao para string por Ex)
+//        Integer -> String
+
+        Integer numeroInteger= 999;
+        String convetInteger= numeroInteger.toString()
     }
 }
