@@ -19,5 +19,7 @@ public class CastingConversaoTipos {
 
         double numero2 = 7.11;
         int nd2 = (int) numero2;
+
+        System.out.println(numero);
     }
 }
