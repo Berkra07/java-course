@@ -27,6 +27,6 @@ public class EstruraCondicional {
         int idade2 = 16;
 
         System.out.println( idade1 == idade2);
-        
+        System.out.println( idade1 != idade2);
     }
 }
