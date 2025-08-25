@@ -28,5 +28,6 @@ public class EstruraCondicional {
 
         System.out.println( idade1 == idade2);
         System.out.println( idade1 != idade2);
+        System.out.println( idade1 > idade2);
     }
 }
