@@ -4,11 +4,11 @@ public class EstruturaCondicionalIfElse {
     public static void main(String[] args) {
 
         /* Estrutura condicional (If-Else)
-        *
-        * if(condição) {
-        * }(Se condição for verdadeira -> execute ...)
-        * else{
-        * } (senão execute)
+         *
+         * if(condição) {
+         * }(Se condição for verdadeira -> execute ...)
+         * else{
+         * } (senão execute)
          * If-> se-> Se condição for verdadeira execute ...
          * Elsee-> senão-> se a condição for falsa execute...  */
 
@@ -80,9 +80,12 @@ public class EstruturaCondicionalIfElse {
         System.out.println("Digite sua nota: ");
         int notaSchool = nota.nextInt();
 
-        if (notaSchool >=70){
-            System.out.println("Você tirou" + notaSchool + ". Aprovado. ");
+        if (notaSchool >= 70) {
+            System.out.println("Você tirou " + notaSchool + ". Aprovado.");
+        } else if (notaSchool >= 60 && notaSchool < 70) {
+            System.out.println("Você tirou " + notaSchool + ".Recuperação.");
+        } else {
+            System.out.println("reprovado");
         }
-        else if (notaSchool>=60 && notaSchool<=70){
     }
 }
