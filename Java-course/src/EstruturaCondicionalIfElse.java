@@ -25,42 +25,12 @@ public class EstruturaCondicionalIfElse {
 
 //       ex 2 ----------------------------------------------------------------------------------------------------
 
-        /*boolean chovendo = false;
+        boolean chovendo = false;
         if(!chovendo){
             System.out.println("Vamos correr");
         }
         else {
             System.out.println("Vamos lêr");
-        }*/
-
-//      ex 3 ----------------------------------------------------------------------------------------------------
-
-        /*boolean hmoney = false;
-        boolean hlimit = false;
-
-        if (hmoney && hlimit){
-            System.out.println("compre comida e sorvete.");
         }
-        else if (hmoney || hlimit){
-            System.out.println("Pede só comida.");
-        }
-        else {
-            System.out.println("faz algo caseiro.");
-        }*/
-
-//        Ex 4 ----------------------------------------------------------------------------------------------------
-/*
-        int numero = -1;
-
-        if (numero >= 0){
-            System.out.println("numero positivo");
-        }
-        else {
-            System.out.println("numero negativo");*/
-//      Ex 5 w
-
-           Scanner sc = new Scanner(System.in);
-
-
     }
 }
