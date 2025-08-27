@@ -10,5 +10,8 @@ public class OperadoresLogicos {
 
         boolean x = true;
         boolean y = false;
+
+        System.out.println(x && y);
+        
     }
 }
