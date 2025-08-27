@@ -20,9 +20,12 @@ public class EstruturaCondicionalIfElse {
 //            System.out.println("Você é menor de idade");
 //        }
 
-        boolean chovendo = true;
+        boolean chovendo = false;
         if(!chovendo){
-            System.out.println();
+            System.out.println("Vamos correr");
+        }
+        else {
+            System.out.println("Vamos lêr");
         }
 
 
