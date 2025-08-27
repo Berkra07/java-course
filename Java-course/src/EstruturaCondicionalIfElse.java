@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class EstruturaCondicionalIfElse {
     public static void main(String[] args) {
         /* Estrutura condicional (If-Else)
@@ -28,13 +26,13 @@ public class EstruturaCondicionalIfElse {
 //            System.out.println("Vamos lêr");
 //        }
 
-        boolean temDinheiro = true;
-        boolean temLimite = false;
+        boolean hmoney = false;
+        boolean hlimit = false;
 
-        if (temDinheiro && temLimite){
+        if (hmoney && hlimit){
             System.out.println("compre comida e sorvete.");
         }
-        else if (temDinheiro || temLimite){
+        else if (hmoney || hlimit){
             System.out.println("Pede só comida.");
         }
         else {
