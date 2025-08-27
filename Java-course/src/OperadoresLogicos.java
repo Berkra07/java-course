@@ -12,6 +12,7 @@ public class OperadoresLogicos {
         boolean y = false;
 
         System.out.println(x && y);
-        
+        System.out.println( x || y);
+       
     }
 }
