@@ -63,8 +63,7 @@ public class EstruturaCondicionalIfElse {
             } else {
                 System.out.println("O número " + numero1 + " é ÍMPAR.");
             }
-
-            sc.close();
+            
         }
     }
 }
