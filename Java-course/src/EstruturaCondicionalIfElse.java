@@ -9,7 +9,11 @@ public class EstruturaCondicionalIfElse {
          * If-> se-> Se condição for verdadeira execute ...
          * Elsee-> senão-> se a condição for falsa execute...  */
 
-        int idade
+        int idade = 18;
+
+        if (idade >=18){
+            System.out.println("Você é maior de idade!");
+        }
 
 
 
