@@ -83,6 +83,6 @@ public class EstruturaCondicionalIfElse {
         if (notaSchool >=70){
             System.out.println("Você tirou" + notaSchool + ". Aprovado. ");
         }
-        else if (notaSchool>=60   )
+        else if (notaSchool>=60 && notaSchool<=70){
     }
 }
