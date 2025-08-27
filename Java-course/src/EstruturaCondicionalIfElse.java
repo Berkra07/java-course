@@ -1,0 +1,18 @@
+public class EstruturaCondicionalIfElse {
+    public static void main(String[] args) {
+        /* Estrutura condicional (If-Else)
+        *
+        * if(condição) {
+        * }(Se condição for verdadeira -> execute ...)
+        * else{
+        * } (senão execute)
+         * If-> se-> Se condição for verdadeira execute ...
+         * Elsee-> senão-> se a condição for falsa execute...  */
+
+        int idade
+
+
+
+
+    }
+}
