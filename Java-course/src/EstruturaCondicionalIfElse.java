@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class EstruturaCondicionalIfElse {
     public static void main(String[] args) {
         /* Estrutura condicional (If-Else)
@@ -48,6 +50,21 @@ public class EstruturaCondicionalIfElse {
         }
         else {
             System.out.println("numero negativo");
+//      Ex 5
+            Scanner sc = new Scanner(System.in);
+
+            // Lê o número digitado pelo usuário
+            System.out.print("Digite um número inteiro: ");
+            long numero1 = sc.nextLong();
+
+            // Verifica se é par ou ímpar
+            if (numero1 % 2 == 0) {
+                System.out.println("O número " + numero1 + " é PAR.");
+            } else {
+                System.out.println("O número " + numero1 + " é ÍMPAR.");
+            }
+
+            sc.close();
         }
     }
 }
