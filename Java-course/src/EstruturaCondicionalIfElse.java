@@ -58,11 +58,13 @@ public class EstruturaCondicionalIfElse {
             long numero1 = sc.nextLong();
 
             // Verifica se é par ou ímpar
+            //% é o operador de resto da divisão.
             if (numero1 % 2 == 0) {
                 System.out.println("O número " + numero1 + " é PAR.");
             } else {
                 System.out.println("O número " + numero1 + " é ÍMPAR.");
             }
+//
             
         }
     }
