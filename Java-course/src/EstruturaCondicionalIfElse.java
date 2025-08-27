@@ -59,21 +59,7 @@ public class EstruturaCondicionalIfElse {
             System.out.println("numero negativo");*/
 //      Ex 5 w
 
-           /* Scanner sc = new Scanner(System.in);
-
-            // Lê o número digitado pelo usuário
-            System.out.print("Digite um número inteiro: ");
-            long numero1 = sc.nextLong();
-
-            // Verifica se é par ou ímpar
-            //% é o operador de resto da divisão.
-            if (numero1 % 2 == 0) {
-                System.out.println("O número " + numero1 + " é PAR.");
-            } else {
-                System.out.println("O número " + numero1 + " é ÍMPAR.");
-            }*/
-
-//      Ex 6
+           Scanner sc = new Scanner(System.in);
 
 
     }
