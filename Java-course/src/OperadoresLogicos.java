@@ -13,6 +13,6 @@ public class OperadoresLogicos {
 
         System.out.println(x && y);
         System.out.println( x || y);
-       
+        System.out.println( !x);
     }
 }
