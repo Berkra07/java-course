@@ -74,7 +74,13 @@ public class EstruturaCondicionalIfElse {
             }*/
 
 //      Ex 6
-        
-        }
+
+        Scanner nota = new Scanner(System.in);
+
+        System.out.println("Digite sua nota: ");
+        int notaSchool = nota.nextInt();
+
+
+
     }
 }
