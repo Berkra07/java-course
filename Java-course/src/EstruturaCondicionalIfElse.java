@@ -38,5 +38,16 @@ public class EstruturaCondicionalIfElse {
         else {
             System.out.println("faz algo caseiro.");
         }
+
+//        Ex 4
+
+        int numero = -1;
+
+        if (numero >= 0){
+            System.out.println("numero positivo");
+        }
+        else {
+            System.out.println("numero negativo");
+        }
     }
 }
