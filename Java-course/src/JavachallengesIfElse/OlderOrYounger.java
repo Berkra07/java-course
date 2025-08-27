@@ -7,7 +7,7 @@ public class OlderOrYounger {
 
         Scanner scage = new Scanner(System.in);
 
-        
+        System.out.println("Digite sua idade: ");
         int age = scage.nextInt();
 
         if (age>=18){
