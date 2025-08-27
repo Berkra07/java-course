@@ -7,10 +7,14 @@ public class OlderOrYounger {
 
         Scanner scage = new Scanner(System.in);
 
+        
         int age = scage.nextInt();
 
         if (age>=18){
-            System.out.println("Você tem: " + age + ", pode tirar a CNH");
+            System.out.println("Você tem: " + age + " anos, pode tirar a CNH");
+        }
+        else {
+            System.out.println("Você tem: " + age + " anos, Volte quando tiver 18 anos ou mais.");
         }
     }
 }
