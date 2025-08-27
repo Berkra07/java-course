@@ -20,14 +20,19 @@ public class EstruturaCondicionalIfElse {
 //            System.out.println("Você é menor de idade");
 //        }
 
-        boolean chovendo = false;
-        if(!chovendo){
-            System.out.println("Vamos correr");
-        }
-        else {
-            System.out.println("Vamos lêr");
-        }
+//        boolean chovendo = false;
+//        if(!chovendo){
+//            System.out.println("Vamos correr");
+//        }
+//        else {
+//            System.out.println("Vamos lêr");
+//        }
 
+        boolean temDinheiro = true;
+        boolean temLimite = false;
 
+        if (temDinheiro && temLimite){
+            System.out.println("compre comida e sorvete.");
+        }
     }
 }
