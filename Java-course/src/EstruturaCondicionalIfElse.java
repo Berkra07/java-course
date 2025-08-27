@@ -37,6 +37,8 @@ public class EstruturaCondicionalIfElse {
         else if (temDinheiro || temLimite){
             System.out.println("Pede só comida.");
         }
-        
+        else {
+            System.out.println("faz algo caseiro.");
+        }
     }
 }
