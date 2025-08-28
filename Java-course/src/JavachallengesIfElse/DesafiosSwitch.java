@@ -10,6 +10,14 @@ public class DesafiosSwitch {
 
         Scanner scWeekVerific = new Scanner(System.in);
 
-        System.out.println();
+        System.out.println("Digite um numero que direi que dia da semana é hoje: ");
+
+        int weekVerific = scWeekVerific.nextInt();
+
+        switch (weekVerific){
+
+            case 1:
+                System.out.println("Hojé é Segunda-feira");
+        }
     }
 }
