@@ -17,8 +17,11 @@ public class ClassificacaoIdade {
         else if (idade<=17) {
             System.out.println("Adolescente");
         }
-        else if (idade <=58) {
+        else if (idade <=59) {
             System.out.println("Adulto");
+        }
+        else {
+            System.out.println("Idoso");
         }
 
     }
