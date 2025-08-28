@@ -16,7 +16,11 @@ public class LoginSimples {
 
 
 
-        
+        if (login.equals("admin") && senha == 123 ){
+            System.out.println("bem vindo Bernardo!");
+        }
+        else {
+            System.out.println("Login invalido");
         }
     }
 }
