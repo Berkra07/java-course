@@ -100,9 +100,10 @@ class desafioTres{
 }
 class desafioQuatro{
     public static void main(String[] args) {
+        System.out.println("Escolha para qual moeda deseja converter:");
         Scanner scConversao = new Scanner(System.in);
 
-        System.out.println("Digite um numero que direi que dia da semana é hoje: ");
+
 
         int conversao = scConversao.nextInt();
 
