@@ -89,7 +89,10 @@ class desafioTres{
             case 1:
                 System.out.println("Você pediu uma pizza!");
                 break;
-            
+            case 2:
+                System.out.println("Você pediu um Lanche!");
+                break;
+
         }
     }
 }
