@@ -80,8 +80,8 @@ class desafioTres{
         System.out.println("4 - sair");
 
         Scanner scCardapio = new Scanner(System.in);
-        
-        int cardapio = sc.nextInt();
+
+        int cardapio = scCardapio.nextInt();
 
         switch (cardapio){
             case 1:
@@ -104,8 +104,9 @@ class desafioQuatro{
 
         System.out.println("Digite um numero que direi que dia da semana é hoje: ");
 
-        int weekVerific = scWeekVerific.nextInt();
+        int conversao = scConversao.nextInt();
 
-        switch (weekVerific){
+        switch (conversao) {
+        }
     }
 }
