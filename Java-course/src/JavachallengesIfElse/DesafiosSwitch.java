@@ -80,8 +80,7 @@ class desafioTres{
         System.out.println("4 - sair");
 
         Scanner scCardapio = new Scanner(System.in);
-
-        System.out.println("Digite um numero que direi que dia da semana é hoje: ");
+        
 
         int cardapio = sc.nextInt();
 
@@ -102,6 +101,12 @@ class desafioTres{
 }
 class desafioQuatro{
     public static void main(String[] args) {
-        
+        Scanner scConversao = new Scanner(System.in);
+
+        System.out.println("Digite um numero que direi que dia da semana é hoje: ");
+
+        int weekVerific = scWeekVerific.nextInt();
+
+        switch (weekVerific){
     }
 }
