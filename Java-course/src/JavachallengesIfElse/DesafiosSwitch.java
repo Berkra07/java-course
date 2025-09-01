@@ -95,7 +95,8 @@ class desafioTres{
             case 3:
                 System.out.println("Você pediu uma salada!");
                 break;
-            
+            case 4:
+                System.out.println("Obrigado por nos visitar, volte sempre!");
         }
     }
 }
