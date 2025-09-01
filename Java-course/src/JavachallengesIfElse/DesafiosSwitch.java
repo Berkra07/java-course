@@ -109,6 +109,9 @@ class desafioQuatro{
         int conversao = scConversao.nextInt();
 
         switch (conversao) {
+            case 1:
+                System.out.println("Você escolheu Dólar");
+                break;
         }
     }
 }
