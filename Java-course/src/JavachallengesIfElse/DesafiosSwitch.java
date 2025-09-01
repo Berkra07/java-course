@@ -83,7 +83,7 @@ class desafioTres{
 
         System.out.println("Digite um numero que direi que dia da semana é hoje: ");
 
-        int weekVerific = scWeekVerific.nextInt();
+        int weekVerific = sc.nextInt();
 
         switch (weekVerific){
     }
