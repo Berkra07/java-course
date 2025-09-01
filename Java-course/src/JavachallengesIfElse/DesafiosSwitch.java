@@ -86,5 +86,10 @@ class desafioTres{
         int cardapio = sc.nextInt();
 
         switch (cardapio){
+            case 1:
+                System.out.println("Você pediu uma pizza!");
+                break;
+            
+        }
     }
 }
