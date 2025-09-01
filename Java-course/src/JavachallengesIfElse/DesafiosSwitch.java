@@ -112,6 +112,10 @@ class desafioQuatro{
             case 1:
                 System.out.println("Você escolheu Dólar");
                 break;
+            case 2:
+                System.out.println("Vôce escolheu Euro.");
+                break;
+            
         }
     }
 }
