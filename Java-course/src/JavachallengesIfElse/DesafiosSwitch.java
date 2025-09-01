@@ -104,11 +104,8 @@ class desafioQuatro{
         System.out.println("2- Euro");
         System.out.println("3- Real");
         System.out.println("Escolha para qual moeda deseja converter:");
-        
+        1
         Scanner scConversao = new Scanner(System.in);
-
-
-
         int conversao = scConversao.nextInt();
 
         switch (conversao) {
