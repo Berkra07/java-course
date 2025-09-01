@@ -100,7 +100,7 @@ class desafioTres{
 }
 class desafioQuatro{
     public static void main(String[] args){
-        
+
         System.out.println("1- Dólar ");
         System.out.println("2- Euro");
         System.out.println("3- Real");
