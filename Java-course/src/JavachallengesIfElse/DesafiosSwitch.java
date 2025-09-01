@@ -71,3 +71,20 @@ class Desafiodois {
         }
     }
 }
+class desafioTres{
+    public static void main(String[] args) {
+        System.out.println("Escolha entre as opções: ");
+        System.out.println("1 - Pizza");
+        System.out.println("2 - Lanche");
+        System.out.println("3 - Salada");
+        System.out.println("4 - sair");
+
+        Scanner scCardapio = new Scanner(System.in);
+
+        System.out.println("Digite um numero que direi que dia da semana é hoje: ");
+
+        int weekVerific = scWeekVerific.nextInt();
+
+        switch (weekVerific){
+    }
+}
