@@ -39,3 +39,35 @@ public class DesafiosSwitch {
         }
     }
 }
+
+class Desafiodois {
+    public static void main(String[] args) {
+        Scanner scNotaLanche = new Scanner(System.in);
+
+        System.out.println("De uma Nota de 0 a 6 para o lanche: ");
+
+        int notaLanche = scNotaLanche.nextInt();
+
+        switch (notaLanche) {
+
+            case 1:
+                System.out.println("Reprovado");
+                break;
+            case 2:
+                System.out.println("Ruim");
+                break;
+            case 3:
+                System.out.println("Regular");
+                break;
+            case 4:
+                System.out.println("Bom");
+                break;
+            case 5:
+                System.out.println("Ótimo");
+                break;
+            case 6:
+                System.out.println("Exelente");
+
+        }
+    }
+}
