@@ -94,7 +94,8 @@ class desafioTres{
                 break;
             case 3:
                 System.out.println("Você pediu uma salada!");
-
+                break;
+            
         }
     }
 }
