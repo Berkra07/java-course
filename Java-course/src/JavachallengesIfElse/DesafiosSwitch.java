@@ -81,7 +81,6 @@ class desafioTres{
 
         Scanner scCardapio = new Scanner(System.in);
         
-
         int cardapio = sc.nextInt();
 
         switch (cardapio){
