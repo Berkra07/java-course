@@ -117,7 +117,7 @@ class desafioQuatro{
                 System.out.println("Vôce escolheu Euro.");
                 break;
             case 3:
-                System.out.println("Você escolheu Real.");
+                System.out.println("Você escolheu Real Brasileiro.");
         }
     }
 }
