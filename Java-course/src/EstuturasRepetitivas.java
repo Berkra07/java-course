@@ -14,7 +14,7 @@ public class EstuturasRepetitivas {
 
     int numero = 1;
 
-    while (numero <= 10){
+    while (numero <= 20){
         System.out.println("numero : " + numero);
         numero ++;
     }
