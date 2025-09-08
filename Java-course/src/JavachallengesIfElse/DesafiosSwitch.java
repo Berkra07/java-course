@@ -98,8 +98,8 @@ class desafioTres{
         }
     }
 }
-class desafioQuatro{
-    public static void main(String[] args){
+class desafioQuatro {
+    public static void main(String[] args) {
 
         System.out.println("1- Dólar ");
         System.out.println("2- Euro");
@@ -119,13 +119,5 @@ class desafioQuatro{
             case 3:
                 System.out.println("Você escolheu Real Brasileiro (R$).");
         }
-    }
-}
-class DesafioCinco{
-    public static void main(String[] args) {
-
-        System.out.println("Digite uma cor em inglês para receber a tradução");
-        Scanner scColor = new Scanner(System.in);
-
     }
 }
