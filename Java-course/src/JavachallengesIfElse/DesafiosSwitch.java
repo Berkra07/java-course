@@ -121,3 +121,10 @@ class desafioQuatro{
         }
     }
 }
+class desafioCinco{
+    public static void main(String[] args) {
+        System.out.println("Digite uma cor em inglês: ");
+        
+
+    }
+}
