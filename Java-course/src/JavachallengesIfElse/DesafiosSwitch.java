@@ -121,3 +121,11 @@ class desafioQuatro{
         }
     }
 }
+class DesafioCinco{
+    public static void main(String[] args) {
+
+        System.out.println("Digite uma cor em inglês para receber a tradução");
+        Scanner scColor = new Scanner(System.in);
+
+    }
+}
