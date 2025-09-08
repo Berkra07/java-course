@@ -98,8 +98,8 @@ class desafioTres{
         }
     }
 }
-class desafioQuatro{
-    public static void main(String[] args){
+class desafioQuatro {
+    public static void main(String[] args) {
 
         System.out.println("1- Dólar ");
         System.out.println("2- Euro");
