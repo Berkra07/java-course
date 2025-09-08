@@ -137,7 +137,8 @@ class desafioCinco{
             case "blue":
                 System.out.println(Color + " quer dizer: Azul.");
                 break;
-           
+            case "green":
+                System.out.println(Color + " quer dizer: Verde.");
         }
     }
 }
