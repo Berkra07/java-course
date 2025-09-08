@@ -132,13 +132,16 @@ class desafioCinco{
 
         switch (Color){
             case "red":
-                System.out.println(Color + " quer dizer : Vermelho");
+                System.out.println(Color + " quer dizer: Vermelho");
                 break;
             case "blue":
                 System.out.println(Color + " quer dizer: Azul.");
                 break;
             case "green":
                 System.out.println(Color + " quer dizer: Verde.");
+                break;
+            case "yellow":
+                System.out.println(Color + " quer dizer: Amarelo");
         }
     }
 }
