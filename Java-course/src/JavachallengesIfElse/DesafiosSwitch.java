@@ -124,7 +124,17 @@ class desafioQuatro {
 class desafioCinco{
     public static void main(String[] args) {
         System.out.println("Digite uma cor em inglês: ");
-        
 
+        Scanner scColor = new Scanner(System.in);
+        String Color = scColor.next();
+
+        Color = Color.toLowerCase();
+
+        switch (Color){
+            case "red":
+                System.out.println(Color + " quer dizer : Vermelho");
+                break;
+            
+        }
     }
 }
