@@ -34,8 +34,18 @@ public class exerciciosTypeCasting {
 class exerciciosTypeCastingNotion{
     public static void main(String[] args) {
 
-        int nmr = 15;
-        double nmrr = nmr;
-        System.out.println(nmrr);
+//        ex 1
+
+//        int nmr = 15;
+//        double nmrr = nmr;
+//        System.out.println(nmrr);
+
+
+//       Ex 2
+
+        double numDec = 7.8;
+        int numDecConv = (int) numDec;
+
+        System.out.println(numDecConv);
     }
 }
