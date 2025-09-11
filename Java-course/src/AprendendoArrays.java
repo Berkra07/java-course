@@ -3,6 +3,7 @@ public class AprendendoArrays {
 
         String[] guns = {"Ak-47","M4-A4","AWM"};
 
-        System.out.println(guns[2]);
+        System.out.println(guns[0]); // Os elementos da Array sempre começa em 0
+        
     }
 }
