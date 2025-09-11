@@ -1,4 +1,4 @@
-public class CastingConversaoTipos {
+public class exerciciosTypeCasting {
     public static void main(String[] args) {
         /*  Casting (conversão de tipos)
         *
