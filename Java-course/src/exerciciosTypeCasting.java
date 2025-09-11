@@ -31,3 +31,11 @@ public class exerciciosTypeCasting {
         System.out.println(convetInteger + " . " + convetInteger);
     }
 }
+class exerciciosTypeCastingNotion{
+    public static void main(String[] args) {
+
+        int nmr = 15;
+        double nmrr = nmr;
+        System.out.println(nmrr);
+    }
+}
