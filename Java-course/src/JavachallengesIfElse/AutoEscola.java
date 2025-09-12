@@ -37,6 +37,18 @@ public class AutoEscola {
                desclassificado = true;
            }
 
+//           Resultado Final
+
+        System.out.println("\n=== Resultado da prova ===");
+
+           if (desclassificado){
+               System.out.println("Infelismente não foi dessa vez, voce somou: " + pontos + " para passar é necessário tirar menos de 4 pontos.");
+           }
+           else {
+               System.out.println("Meus parabéns!!");
+               System.out.println("Você passou, somou" + pontos +"e ficou dentro da média");
+           }
+
 
 
 
