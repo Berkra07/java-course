@@ -33,6 +33,10 @@ public class AutoEscola {
                desclassificado = true;
            }
 
+           if (pontos >=4){
+               desclassificado = true;
+           }
+
 
 
 
