@@ -42,7 +42,7 @@ public class AutoEscola {
         System.out.println("\n=== Resultado da prova ===");
 
            if (desclassificado){
-               System.out.println("Infelismente não foi dessa vez, voce somou: " + pontos + " para passar é necessário tirar menos de 4 pontos.");
+               System.out.println("Infelismente não foi dessa vez, voce somou: " + pontos + " pontos para passar é necessário tirar menos de 4 pontos.");
            }
            else {
                System.out.println("Meus parabéns!!");
