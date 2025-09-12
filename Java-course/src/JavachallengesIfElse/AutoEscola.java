@@ -41,12 +41,17 @@ public class AutoEscola {
 
         System.out.println("\n=== Resultado da prova ===");
 
+        if (desclassificado && pontos == 0) {
+            // Caso a única falha seja afogar a moto
+            System.out.println("Você reprovou porque afogou a moto.");}
+
            if (desclassificado){
-               System.out.println("Infelismente não foi dessa vez, voce somou: " + pontos + " pontos para passar é necessário tirar menos de 4 pontos.");
+               System.out.println("Infelismente não foi dessa vez, boa sorte na proxima");
+               System.out.println("Você foi DESCLASSIFICADO!");
            }
            else {
                System.out.println("Meus parabéns!!");
-               System.out.println("Você passou, somou" + pontos +"e ficou dentro da média");
+               System.out.println("Você passou, somou " + pontos + " ponto(s) e ficou dentro da média");
            }
 
 
