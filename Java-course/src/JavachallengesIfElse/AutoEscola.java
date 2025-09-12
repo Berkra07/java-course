@@ -22,7 +22,7 @@ public class AutoEscola {
            System.out.println("Você abaixou a viseira do capacete: ");
            String reposta2 = ScQuestions.nextLine();
 
-           if (resposta1.equalsIgnoreCase("sim")) {
+           if (resposta1.equalsIgnoreCase("nao")) {
                pontos += 1;
            }
 
