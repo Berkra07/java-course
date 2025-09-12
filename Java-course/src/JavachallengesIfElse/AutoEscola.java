@@ -10,7 +10,7 @@ public class AutoEscola {
        int pontos = 0;
        boolean desclassificado = false;
 
-           System.out.println("Simulado prova do detran \uD83D\uDEA6");
+           System.out.println("Simulado prova do detran \uD83D\uDEA6 (responder apenas com sim/não ");
 
            System.out.println("Você queimou faixa: ");
            String resposta1 = ScQuestions.nextLine();
@@ -19,7 +19,17 @@ public class AutoEscola {
                pontos += 3;
            }
 
-           System.out.println("Você afogou a moto:");
+           System.out.println("Você abaixou a viseira do capacete: ");
+           String reposta2 = ScQuestions.nextLine();
+
+           if (resposta1.equalsIgnoreCase("sim")) {
+               pontos += 1;
+           }
+
+           System.out.println("Você interrompeu o motor da moto enquanto fazia a prova: ");
+           String reposta3 = ScQuestions.nextLine();
+
+           
 
 
     }
