@@ -29,7 +29,11 @@ public class AutoEscola {
            System.out.println("Você interrompeu o motor da moto enquanto fazia a prova: ");
            String reposta3 = ScQuestions.nextLine();
 
-           
+           if (reposta3.equalsIgnoreCase("sim")){
+               desclassificado = true;
+           }
+
+
 
 
     }
