@@ -12,7 +12,12 @@ public class CaixaEletronico {
         if (valorTotal>=50) {
             int ceulasDe50 = valorTotal / 50;
             System.out.println("Cedulas de 50= " + ceulasDe50);
-            System.out.println("Resto = " + resto);
         }
+
+        if (resto>=20) {
+        int cedulasDe20 = resto / 20;
+        System.out.println("cedulas de 20= " + cedulasDe20);
+
+    }
     }
 }
