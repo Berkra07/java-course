@@ -13,7 +13,6 @@ public class CaixaEletronico {
         if (valorTotal>=50) {
             int ceulasDe50 = valorTotal / 50;
             System.out.println("Cedulas de 50= " + ceulasDe50);
-            resto = resto % 50;
         }
 
         if (resto>=20) {
@@ -37,9 +36,8 @@ public class CaixaEletronico {
             System.out.println("Cedulas de R$ 2,00 = " + cedulasDe2);
             resto = resto % 2;
         }
-        if (resto>=1){
-            int moedaDe1 = resto;
-            System.out.println("Moedas de R$ 1,00 =" + moedaDe1);
+        if (resto == 1){
+            System.out.println("Moedas de R$ 1,00 =" + resto);
         }
     }
 }
