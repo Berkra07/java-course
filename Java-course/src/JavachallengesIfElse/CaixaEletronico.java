@@ -21,15 +21,20 @@ public class CaixaEletronico {
 
         if (resto>= 10){
             int cedulasDe10 = resto / 10;
-            System.out.println("Cédulas de 10= " + cedulasDe10);
+            System.out.println("Cédulas de R$ 10,00 = " + cedulasDe10);
         }
         if (resto>= 5){
             int cedulasDe5 = resto / 5;
-            System.out.println("Cédulas de 5= " + cedulasDe5);
+            System.out.println("Cédulas de R$ 5,00= " + cedulasDe5);
         }
         if (resto>= 2){
             int cedulasDe2 = resto / 2;
-            System.out.println("Cedulas de 2= " + cedulasDe2);
+            System.out.println("Cedulas de R$ 2,00 = " + cedulasDe2);
+        }
+        if (resto>=1){
+            int moedaDe1 = resto;
+            System.out.println("Moedas de R$ 1,00 = s" + moedaDe1);
+
         }
     }
 }
