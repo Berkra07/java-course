@@ -8,11 +8,16 @@ public class CaixaEletronico {
 
         Scanner scValorTotal = new Scanner(System.in);
         int valorTotal = scValorTotal.nextInt();
-        int resto = valorTotal % 50 ;
+        int resto = valorTotal % 100 ;
 
-        if (valorTotal>=50) {
-            int ceulasDe50 = valorTotal / 50;
+        if (valorTotal>=100){
+            int cedulasDe100 = valorTotal / 100;
+            System.out.println("Cedulas de 100 = " + cedulasDe100);
+        }
+        if (resto>=50) {
+            int ceulasDe50 = resto / 50;
             System.out.println("Cedulas de 50= " + ceulasDe50);
+            resto = resto % 50;
         }
 
         if (resto>=20) {
