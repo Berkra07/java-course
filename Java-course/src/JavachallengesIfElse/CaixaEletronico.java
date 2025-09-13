@@ -23,5 +23,13 @@ public class CaixaEletronico {
             int cedulasDe10 = resto / 10;
             System.out.println("Cédulas de 10= " + cedulasDe10);
         }
+        if (resto>= 5){
+            int cedulasDe5 = resto / 5;
+            System.out.println("Cédulas de 5= " + cedulasDe5);
+        }
+        if (resto>= 2){
+            int cedulasDe2 = resto / 2;
+            System.out.println("Cedulas de 2= " + cedulasDe2);
+        }
     }
 }
