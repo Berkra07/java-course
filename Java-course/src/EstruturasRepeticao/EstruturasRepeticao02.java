@@ -6,7 +6,7 @@ public class EstruturasRepeticao02 {
 
         int cambalhotas = 1;
          while (cambalhotas<=4){
-             System.out.println("Cabalhotas = "cambalhotas);
+             System.out.println("Cabalhotas = "+ cambalhotas);
              cambalhotas ++;
          }
     }
