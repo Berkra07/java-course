@@ -9,9 +9,9 @@ public class EstruturaRepeticao06 {
         int numero;
 
         do {
-            System.out.println("Digite um valor positivo: ");
+            System.out.println("Digite um numero maior que 10: ");
             numero = Scnumero.nextInt();
-        }while (numero <= 0);
+        }while (numero <= 10);
         System.out.println("Você digitou: " + numero);
     }
 }
