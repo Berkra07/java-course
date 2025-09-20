@@ -9,7 +9,7 @@ public class EstruturaRepeticao06 {
         int numero;
 
         do {
-            System.out.println("Digite um valor positivo");
+            System.out.println("Digite um valor positivo: ");
             numero = Scnumero.nextInt();
         }while (numero <= 0);
         System.out.println("Você digitou: " + numero);
