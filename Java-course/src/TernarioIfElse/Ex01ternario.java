@@ -9,3 +9,4 @@ public class Ex01ternario {
         System.out.println( resultado);
     }
 }
+
