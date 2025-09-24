@@ -7,8 +7,9 @@ public class Aula02 {
         c1.modelo="Bic Azul";
         c1.cor= "Azul";
         c1.ponta= 0.5f;
-        c1.tampada = false;
         c1.carga = 9.5f;
+        c1.tampar();
         c1.status();
+        c1.rabiscar();
     }
 }
