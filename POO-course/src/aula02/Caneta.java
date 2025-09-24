@@ -3,8 +3,8 @@ package aula02;
 public class Caneta {
 
 
-        String modelo;
-        String cor;
+        public String modelo;
+        public String cor;
         float ponta;
         float carga;
         boolean tampada;
