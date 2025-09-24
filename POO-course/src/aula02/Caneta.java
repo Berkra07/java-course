@@ -14,7 +14,7 @@ public class Caneta {
             System.out.println("Cor: " + this.cor);
             System.out.println("Ponta: " + this.ponta);
             System.out.println("Carga: " + this.carga);
-            System.out.println("Esta tampada? " + this.tampada );
+            System.out.println("tampada? " + this.tampada );
         }
         void rabiscar(){
             if (this.tampada ){
