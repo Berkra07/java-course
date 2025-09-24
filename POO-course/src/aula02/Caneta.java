@@ -11,7 +11,7 @@ public class Caneta {
 
         void status(){
             System.out.println("Modelo: " + this.modelo);
-            System.out.print("Cor: " + this.cor);
+            System.out.println("Cor: " + this.cor);
             System.out.println("Ponta: " + this.ponta);
             System.out.println("Carga: " + this.carga);
             System.out.println("Esta tampada? " + this.tampada );
@@ -19,8 +19,7 @@ public class Caneta {
         void rabiscar(){
             if (this.tampada ){
                 System.out.println("ERRO! A caneta esta tampada");
-            }
-            else {
+            } else {
                 System.out.println("Rabiscando...");
             }
         }

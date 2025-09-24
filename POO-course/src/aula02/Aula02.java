@@ -11,5 +11,14 @@ public class Aula02 {
         c1.tampar();
         c1.status();
         c1.rabiscar();
+
+        Caneta c2 = new Caneta();
+        c2.modelo = "Bic verde";
+        c2.cor="Verde";
+        c2.ponta=2.0f;
+        c2.carga = 10;
+        c2.destampar();
+        c2.status();
+        c2.rabiscar();
     }
 }
