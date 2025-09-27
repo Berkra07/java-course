@@ -7,7 +7,7 @@ public class Caneta {
         public String cor;
         private float ponta;
         protected float carga;
-        protected boolean tampada;
+        private boolean tampada;
 
         public void status(){
             System.out.println("Modelo: " + this.modelo);

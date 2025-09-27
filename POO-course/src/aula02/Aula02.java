@@ -8,5 +8,6 @@ public class Aula02 {
         c1.cor = "Preto";
         c1.carga = 80;
         c1.status();
+        c1.destampar();
     }
 }
