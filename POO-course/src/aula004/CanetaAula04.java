@@ -1,0 +1,28 @@
+package aula004;
+
+public class CanetaAula04 {
+    public String modelo;
+    private Float ponta;
+
+    public String getModelo(){
+        return this.modelo;
+    }
+
+    public void setModelo(String m) {
+        this.modelo= m;
+    }
+
+    public Float getPonta(){
+        return this.ponta;
+    }
+
+    public void setPonta(float p){
+        this.ponta = p;
+    }
+
+    public void status (){
+        System.out.println("Sobre a caneta:");
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Ponta: " + this.ponta);
+    }
+}
