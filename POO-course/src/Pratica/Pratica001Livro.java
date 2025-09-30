@@ -14,5 +14,20 @@ public class Pratica001Livro {
     public void setNome(String n){
         this.nome=n;
     }
-    
+
+    public String getAutor(){
+        return this.autor;
+    }
+
+    public void setAutor(String a){
+        this.autor=a;
+    }
+
+    public int getPaginas(){
+        return this.paginas;
+    }
+
+    public void setPaginas(int p){
+        this.paginas=p;
+    }
 }
