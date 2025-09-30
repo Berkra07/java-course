@@ -6,9 +6,10 @@ public class CanetaAula04 {
     private boolean tampada;
     private String cor;
 
-    public CanetaAula04(){
-        this.tampar();
-        this.cor = "Azul";
+    public CanetaAula04(String m, String c, float p ){
+        this.modelo = m;
+        this.cor = c;
+        this.ponta = p;
     }
 
     public String getModelo(){
