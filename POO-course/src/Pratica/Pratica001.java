@@ -5,11 +5,12 @@ public class Pratica001 {
 
         Pratica001Livro livro01 = new Pratica001Livro();
 
-        livro01.nome="O Hobbit";
+        livro01.setNome("O hobbit");
         livro01.autor="J.R.R Tolkien";
         livro01.paginas=324;
         livro01.capitulos=22;
         livro01.status();
+
 
     }
 }
