@@ -3,8 +3,8 @@ package Pratica;
 public class Pratica001Livro {
     public String nome;
     public String autor;
-    private int paginas;
-    private int capitulos;
+    public int paginas;
+    public int capitulos;
 
 
     public String getNome(){
@@ -44,6 +44,6 @@ public class Pratica001Livro {
         System.out.println("Nome do  Livro: " + nome);
         System.out.println("Nome do Autor: " + autor);
         System.out.println("Número de páginas: " + paginas);
-        System.out.println("Número de capitulos: " + autor );
+        System.out.println("Número de capitulos: " + capitulos );
     }
 }
