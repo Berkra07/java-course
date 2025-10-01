@@ -41,7 +41,7 @@ public class Pratica001Livro {
 
     public void status (){
         System.out.println("Sobre o livro: ");
-        System.out.println("Nome do  Livro: " + nome);
+        System.out.println("Nome do  Livro: " + this.getNome());
         System.out.println("Nome do Autor: " + autor);
         System.out.println("Número de páginas: " + paginas);
         System.out.println("Número de capitulos: " + capitulos );
