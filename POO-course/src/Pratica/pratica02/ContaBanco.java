@@ -7,6 +7,6 @@ public class ContaBanco {
     String dono;
     float saldo;
     boolean abrirConta;
-    
+
 
 }
