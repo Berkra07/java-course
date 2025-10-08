@@ -5,6 +5,6 @@ public class BancoCLiente {
         ContaBanco cLiente01 = new ContaBanco();
         cLiente01.numConta = 10;
 
-
+        cLiente01.status();
     }
 }
