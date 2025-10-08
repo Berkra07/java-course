@@ -54,6 +54,19 @@ public class ContaBanco {
         }
     }
     public void pagarMensalidade(){
+        int v=0;
+        if (getTipo()=="CC"){
+            v=12;
+        } else if (getTipo() == "CP") {
+            v=20;
+        }
+        if (this.getStatus()){
+            this.setSaldo(this.getSaldo() - v);
+            System.out.println("Mensalidade paga com sucesso por " + this.getProprietario());
+        }
+        else {
+            System.out.println("Imposivel pagar");
+        }
 
     }
 
