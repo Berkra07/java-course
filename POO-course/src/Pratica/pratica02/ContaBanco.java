@@ -6,7 +6,7 @@ public class ContaBanco {
     protected String tipo;
     private String proprietario;
     private float saldo;
-    private boolean abrirConta;
+    private boolean status;
 
     public void abrirConta(){
 
@@ -26,15 +26,47 @@ public class ContaBanco {
 
     //Métodos Especiais
     public void ContaBanco(){
+        this.saldo=0;
+        this.status=false;
+    }
 
+    public int getNumConta() {
+        return numConta;
     }
-    public void setNumConta(int n){
-        this.numConta = n;
-    }
-    public int getNumConta(){
-        return this.numConta;
-    }
-    public void status(){
 
+    public void setNumConta(int numConta) {
+        this.numConta = numConta;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getProprietario() {
+        return proprietario;
+    }
+
+    public void setProprietario(String proprietario) {
+        this.proprietario = proprietario;
+    }
+
+    public float getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(float saldo) {
+        this.saldo = saldo;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
     }
 }
