@@ -9,5 +9,11 @@ public class ContaBanco {
     boolean abrirConta;
 
 
-
+    public void status(){
+        System.out.println(numConta);
+        System.out.println(tipo);
+        System.out.println(dono);
+        System.out.println(saldo);
+        System.out.println(abrirConta);
+    }
 }
