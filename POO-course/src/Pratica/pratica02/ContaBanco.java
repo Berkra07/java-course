@@ -43,7 +43,7 @@ public class ContaBanco {
     public void depositar(float v){
         if (this.getStatus()){
             this.setSaldo(this.getSaldo() + v);
-            System.out.println("deposito realizado com sucesso");
+            System.out.println("deposito realizado com sucesso para" + this.getProprietario());
         }
         else {
             System.out.println("Impossivel depositar, Crie uma conta.");
