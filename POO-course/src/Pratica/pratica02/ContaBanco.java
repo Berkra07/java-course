@@ -28,6 +28,7 @@ public class ContaBanco {
             this.setSaldo(150);
         }
         System.out.println("Conta aberta!");
+        System.out.println("Bem vindo " + this.getProprietario() + " !!!");
     }
     public void fecharConta(){
         if (this.getSaldo()> 0){
@@ -43,7 +44,7 @@ public class ContaBanco {
     public void depositar(float v){
         if (this.getStatus()){
             this.setSaldo(this.getSaldo() + v);
-            System.out.println("deposito realizado com sucesso para" + this.getProprietario());
+            System.out.println("deposito realizado com sucesso para " + this.getProprietario());
         }
         else {
             System.out.println("Impossivel depositar, Crie uma conta.");
