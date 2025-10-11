@@ -6,21 +6,21 @@ public class ContaBanco {
     protected String tipo;
     private String proprietario;
     private float saldo;
-    private boolean status;
+    private boolean ContaAberta;
 
     public void estadoAtual(){
-        System.out.println("________________________________________");
+
         System.out.println("Conta: " + this.getNumConta());
         System.out.println("Tipo: " + this.getTipo());
         System.out.println("Dono: " + this.getProprietario());
         System.out.println("Saldo: R$" + this.getSaldo());
-        System.out.println("Status: " + this.getStatus());
-
+        System.out.println("Conta aberta: " + this.getContaAberta());
+        System.out.println("________________________________________");
     }
 
     public void abrirConta(String t){
         this.setTipo(t);
-        this.setStatus(true);
+        this.setContaAberta(true);
         if(t== "CC"){
             this.setSaldo(50);
         }
@@ -37,12 +37,12 @@ public class ContaBanco {
             System.out.println("Conta não pode ser fechada pois tem debito:");
         }
         else {
-            this.setStatus(false);
+            this.setContaAberta(false);
             System.out.println("Conta fechada com sucesso");
         }
     }
     public void depositar(float v){
-        if (this.getStatus()){
+        if (this.getContaAberta()){
             this.setSaldo(this.getSaldo() + v);
             System.out.println("deposito realizado com sucesso para " + this.getProprietario());
         }
@@ -51,7 +51,7 @@ public class ContaBanco {
         }
     }
     public void sacar(float v){
-        if (this.getStatus()){
+        if (this.getContaAberta()){
             if (this.getSaldo()>=v){
                 this.setSaldo(this.getSaldo() - v);
                 System.out.println("Saque realizado na conta de " + this.getProprietario());
@@ -71,7 +71,7 @@ public class ContaBanco {
         } else if (getTipo() == "CP") {
             v=20;
         }
-        if (this.getStatus()){
+        if (this.getContaAberta()){
             this.setSaldo(this.getSaldo() - v);
             System.out.println("Mensalidade paga com sucesso por " + this.getProprietario());
         }
@@ -85,7 +85,7 @@ public class ContaBanco {
     
     public void ContaBanco(){
         this.saldo=0;
-        this.status=false;
+        this.ContaAberta =false;
     }
 
     public int getNumConta() {
@@ -120,11 +120,11 @@ public class ContaBanco {
         this.saldo = saldo;
     }
 
-    public boolean getStatus() {
-        return status;
+    public boolean getContaAberta() {
+        return ContaAberta;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setContaAberta(boolean contaAberta) {
+        this.ContaAberta = contaAberta;
     }
 }
