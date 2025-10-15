@@ -34,7 +34,7 @@ public class ContaBanco {
         if (this.getSaldo()> 0){
             System.out.println("Conta não pode ser fechada pois ainda tem dinheiro");
         } else if (this.getSaldo()<0) {
-            System.out.println("Conta não pode ser fechada pois tem debito:");
+            System.out.println("Conta não pode ser fechada pois tem debito");
         }
         else {
             this.setContaAberta(false);
