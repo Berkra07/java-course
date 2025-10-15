@@ -57,7 +57,7 @@ public class ContaBanco {
                 System.out.println("Saque realizado na conta de " + this.getProprietario());
             }
             else {
-                System.out.println("valor indisponivel para saca");
+                System.out.println("valor indisponivel para saque");
             }
         }
         else {
@@ -76,7 +76,7 @@ public class ContaBanco {
             System.out.println("Mensalidade paga com sucesso por " + this.getProprietario());
         }
         else {
-            System.out.println("Imposivel pagar");
+            System.out.println("Imposivel pagar, saldo insuficiente");
         }
 
     }
