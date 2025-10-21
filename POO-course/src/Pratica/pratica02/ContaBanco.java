@@ -1,5 +1,7 @@
 package Pratica.pratica02;
 
+import java.util.Objects;
+
 public class ContaBanco {
 
     public int numConta;
@@ -24,7 +26,7 @@ public class ContaBanco {
         if(t== "CC"){
             this.setSaldo(50);
         }
-        else if (t == "CP") {
+        else if (Objects.equals(t, "CP")) {
             this.setSaldo(150);
         }
         System.out.println("Conta aberta!");
