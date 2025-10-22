@@ -6,7 +6,14 @@ public class Pratica {
         Scanner ScNumeros = new Scanner(System.in);
 
         System.out.println("Digite um numero");
-        int Numeropar= ScNumeros.nextInt();
+        int Numero= ScNumeros.nextInt();
+
+        if (Numero %  2==0){
+            System.out.println("NUmero par");
+        }
+        else {
+            System.out.println("Numero impar");
+        }
 
 
     }
