@@ -85,7 +85,7 @@ public class ContaBanco {
 
     //Métodos Especiais
     
-    public void ContaBanco(){
+    public ContaBanco(){
         this.saldo=0;
         this.ContaAberta =false;
     }
