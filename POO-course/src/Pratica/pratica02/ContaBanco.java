@@ -26,7 +26,7 @@ public class ContaBanco {
         if("CC".equals(t)){
             this.setSaldo(50);
         }
-        else if (Objects.equals(t, "CP")) {
+        else if  ("CP".equals(tipo)) {
             this.setSaldo(150);
         }
         System.out.println("Conta aberta!");
