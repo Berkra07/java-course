@@ -66,21 +66,25 @@ public class ContaBanco {
             System.out.println("Impossivel sacar de uma conta fechada!");
         }
     }
-    public void pagarMensalidade(){
-        int v=0;
-        if (getTipo()=="CC"){
-            v=12;
-        } else if (getTipo() == "CP") {
-            v=20;
-        }
-        if (this.getContaAberta()){
-            this.setSaldo(this.getSaldo() - v);
-            System.out.println("Mensalidade paga com sucesso por " + this.getProprietario());
-        }
-        else {
-            System.out.println("Imposivel pagar, saldo insuficiente");
+    public void pagarMensalidade() {
+        int valor = 0;
+
+        if ("CC".equals(getTipo())) {
+            valor = 12;
+        } else if ("CP".equals(getTipo())) {
+            valor = 20;
         }
 
+        if (this.getContaAberta()) {
+            if (this.getSaldo() >= valor) {
+                this.setSaldo(this.getSaldo() - valor);
+                System.out.println("Mensalidade paga com sucesso por " + this.getProprietario());
+            } else {
+                System.out.println("Saldo insuficiente para pagar mensalidade.");
+            }
+        } else {
+            System.out.println("Impossível pagar mensalidade de uma conta fechada!");
+        }
     }
 
     //Métodos Especiais
