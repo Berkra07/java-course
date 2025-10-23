@@ -1,7 +1,5 @@
 package Pratica.pratica02;
 
-import java.util.Objects;
-
 public class ContaBanco {
 
     public int numConta;
