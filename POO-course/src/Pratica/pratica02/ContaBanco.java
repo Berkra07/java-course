@@ -8,7 +8,7 @@ public class ContaBanco {
     protected String tipo;
     private String proprietario;
     private float saldo;
-    private boolean ContaAberta;
+    private boolean contaAberta;
 
     public void estadoAtual(){
 
@@ -91,7 +91,7 @@ public class ContaBanco {
     
     public ContaBanco(){
         this.saldo=0;
-        this.ContaAberta =false;
+        this.contaAberta =false;
     }
 
     public int getNumConta() {
@@ -127,10 +127,10 @@ public class ContaBanco {
     }
 
     public boolean getContaAberta() {
-        return ContaAberta;
+        return contaAberta;
     }
 
     public void setContaAberta(boolean contaAberta) {
-        this.ContaAberta = contaAberta;
+        this.contaAberta = contaAberta;
     }
 }
