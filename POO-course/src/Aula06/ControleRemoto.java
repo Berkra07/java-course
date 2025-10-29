@@ -11,6 +11,6 @@ public class ControleRemoto {
         ligado = false;
         tocando=false;
     }
-    
+
 }
 
