@@ -16,7 +16,7 @@ public class AprendendoArrays {
         cars [3] = "Ferrari";
         cars [4] = "Mustang";
 
-        System.out.println("O seu " + cars[4] + " está na garagem N: 47");
+        System.out.println("O seu " + cars[3] + " está na garagem N: 47");
        /*Dessa forma primeiro voce dá o numero maximo de variaveis que o Array vai aceitar e depois voce nomeia cada
        * um conforme o numero que o deduzirá*/
     }
