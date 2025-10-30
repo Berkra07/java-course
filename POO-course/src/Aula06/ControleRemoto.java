@@ -51,31 +51,38 @@ public class ControleRemoto implements Controlador{
         System.out.println("Esta ligado? " + this.getLigado());
         System.out.println("Esta tocando? " + this.getTocando());
         System.out.println("Volume: " + this.getVolume());
+        for (int i = 0; i<= this.getVolume(); i+=10){
+            System.out.println("|");
+        }
     }
 
     @Override
     public void fecharMenu() {
-
+        System.out.println("menu fechado");
     }
 
     @Override
     public void maisVolume() {
-
+        if (this.getLigado()){
+             this.setVolume(this.getVolume() +10);
+        }
     }
-
     @Override
     public void menosVolume() {
-
+        if (this.getLigado()){
+            this.setVolume(this.getVolume() + 10);
+        }
     }
 
     @Override
     public void ligarMudo() {
-
+        if (this.getLigado() && this.getVolume() > 0)
+            this.setVolume(0);
     }
 
     @Override
     public void play() {
-
+        
     }
 
     @Override
