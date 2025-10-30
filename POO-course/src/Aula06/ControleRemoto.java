@@ -81,8 +81,13 @@ public class ControleRemoto implements Controlador{
     }
 
     @Override
+    public void desligarMudo(){
+
+    }
+
+    @Override
     public void play() {
-        
+
     }
 
     @Override
