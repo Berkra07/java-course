@@ -1,6 +1,5 @@
 package JavachallengesIfElse;
 
-import java.lang.classfile.instruction.SwitchCase;
 import java.util.Scanner;
 
 public class ClassificacaoIdade {

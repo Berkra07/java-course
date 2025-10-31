@@ -7,7 +7,7 @@ public class DinheiroComida {
         boolean hlimit = false;
 
         if (hmoney && hlimit){
-            System.out.println("compre comida e sorvete.");
+            System.out.println("compre comida e sorvete!.");
         }
         else if (hmoney || hlimit){
             System.out.println("Pede só comida.");
