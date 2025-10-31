@@ -1,4 +1,4 @@
-public class CastingConversaoTipos {
+public class exerciciosTypeCasting {
     public static void main(String[] args) {
         /*  Casting (conversão de tipos)
         *
@@ -29,5 +29,23 @@ public class CastingConversaoTipos {
         Integer numeroInteger= 999;
         String convetInteger= numeroInteger.toString();
         System.out.println(convetInteger + " . " + convetInteger);
+    }
+}
+class exerciciosTypeCastingNotion{
+    public static void main(String[] args) {
+
+//        ex 1
+
+//        int nmr = 15;
+//        double nmrr = nmr;
+//        System.out.println(nmrr);
+
+
+//       Ex 2
+
+        double numDec = 7.8;
+        int numDecConv = (int) numDec;
+
+        System.out.println(numDecConv);
     }
 }

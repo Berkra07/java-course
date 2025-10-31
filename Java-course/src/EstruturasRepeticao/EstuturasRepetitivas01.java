@@ -1,4 +1,6 @@
-public class EstuturasRepetitivas {
+package EstruturasRepeticao;
+
+public class EstuturasRepetitivas01 {
     public static void main(String[] args) {
 /*                   ESTRUTURAS REPETITIVAS:
 *
@@ -12,12 +14,11 @@ public class EstuturasRepetitivas {
 *       Ele verifica a condição no início
     */
 
-    int numero = 1;
+            int numero = 1;
 
-    while (numero <= 20){
-        System.out.println("numero : " + numero);
-        numero ++;
-    }
-
+            while (numero <= 20){
+            System.out.println("numero : " + numero);
+            numero ++;
+        }
     }
 }
