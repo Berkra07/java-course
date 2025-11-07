@@ -16,5 +16,11 @@ public class Lutador{
         this.nome= no;
         this.nacionalidade= na;
         this.idade=id;
+        this.altura=al;
+        this.peso=pe;
+        this.categoria=ca;
+        this.vitorias=vi;
+        this.derrotas=de;
+        this.empates=em;
     }
 }
