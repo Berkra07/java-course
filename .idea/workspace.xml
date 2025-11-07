@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c752b27-c7e7-409c-b094-5f7aad915718" name="Changes" comment="" />
+    <list default="true" id="0c752b27-c7e7-409c-b094-5f7aad915718" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/java-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/ClassificacaoIdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/ClassificacaoIdade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/DinheiroComida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/DinheiroComida.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +69,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "updateJavaRemoto",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/akemi/Documents/GitHub/java-course"
   }
 }]]></component>
   <component name="RunManager">
