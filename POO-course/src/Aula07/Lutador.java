@@ -11,3 +11,10 @@ public class Lutador{
     private int vitorias;
     private int derrotas;
     private int empates;
+
+    public Lutador (String no, String na, int id, float al, float pe, String ca, int vi, int de, int em){
+        this.nome= no;
+        this.nacionalidade= na;
+        this.idade=id;
+    }
+}
