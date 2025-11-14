@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c752b27-c7e7-409c-b094-5f7aad915718" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/ClassificacaoIdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/ClassificacaoIdade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/DinheiroComida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-course/src/JavachallengesIfElse/DinheiroComida.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c752b27-c7e7-409c-b094-5f7aad915718" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +47,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Berkra07/java-course.git",
-    "accountId": "929dec85-dc0c-4e01-b8a7-45ab5b97d910"
+    "accountId": "f7d8dec4-22e6-4864-8be2-4de4be015c9f"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -67,10 +63,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "updateJavaRemoto",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/akemi/Documents/GitHub/java-course"
+    "last_opened_file_path": "C:/Users/berna/IdeaProjects/java course"
   }
 }]]></component>
   <component name="RunManager">
